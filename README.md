@@ -48,7 +48,7 @@
 
 <section>
     <h2>صورة ترحيبية</h2>
-    <img src="https://via.placeholder.com/300" alt="صورة مثال" width="300" height="200">
+    <img src="assets/avataaars.svg" alt="صورة مثال" width="300" height="200">
 </section>
 
 <footer>
