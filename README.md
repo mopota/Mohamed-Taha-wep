@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ar">
 <head>
     <meta charset="UTF-8">
@@ -47,8 +48,6 @@
     <div class="toolbar">
         <h1>MT-shop</h1>
     </div>
-
-    <!-- Main Container -->
     <div class="container">
         <!-- Comments Section -->
         <div class="section comments-section">
@@ -57,8 +56,6 @@
             <textarea placeholder="اكتب تعليقك هنا..." rows="4" style="width: 100%;"></textarea>
             <button style="margin-top: 10px; padding: 10px;">إرسال</button>
         </div>
-
-        <!-- Latest Posts Section -->
         <div class="section latest-posts-section">
             <h2>آخر المشاركات</h2>
             <ul>
@@ -67,8 +64,6 @@
                 <li>كيف تختار ملابسك المناسبة لهذا الموسم</li>
             </ul>
         </div>
-
-        <!-- Important Items Section -->
         <div class="section important-items-section">
             <h2>أهم العناصر</h2>
             <ul>
