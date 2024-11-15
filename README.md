@@ -3,17 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MT-shop</title>
-    <style>
-        body {
+    <title>   MT-shop  </title>
+    <style>   body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             direction: rtl;
         }
         .toolbar {
-            background-color: #333;
-            color: #fff;
+            background-color: #457;
+            color: #f67;
             padding: 10px;
             text-align: center;
         }
@@ -26,7 +25,7 @@
             align-items: center;
             padding: 20px;
         }
-        .section {
+	    .section {
             width: 80%;
             margin-bottom: 20px;
             padding: 15px;
@@ -40,16 +39,13 @@
         }
         .comments-section, .latest-posts-section, .important-items-section {
             background-color: #f9f9f9;
-        }
-    </style>
+        }    </style>
 </head>
 <body>
-    <!-- Toolbar -->
     <div class="toolbar">
         <h1>MT-shop</h1>
     </div>
     <div class="container">
-        <!-- Comments Section -->
         <div class="section comments-section">
             <h2>التعليقات</h2>
             <p>شارك برأيك حول منتجاتنا وخدماتنا!</p>
