@@ -1,60 +1,82 @@
-<html lang="ar"> 
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مرحباً بكم في موقعي</title>
+    <title>MT-shop</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
         }
-        header {
-            background-color: #4CAF50;
-            color: white;
+        .toolbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .toolbar h1 {
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             padding: 20px;
         }
-        section {
-            margin: 20px;
+        .section {
+            width: 80%;
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
         }
-        footer {
-            margin-top: 20px;
-            padding: 10px;
-            background-color: #333;
-            color: white;
+        .section h2 {
+            margin-top: 0;
+            color: #333;
+        }
+        .comments-section, .latest-posts-section, .important-items-section {
+            background-color: #f9f9f9;
         }
     </style>
 </head>
 <body>
+    <!-- Toolbar -->
+    <div class="toolbar">
+        <h1>MT-shop</h1>
+    </div>
 
-<header>
-    <h1>مرحباً بكم في موقعي الشخصي</h1>
-</header>
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Comments Section -->
+        <div class="section comments-section">
+            <h2>التعليقات</h2>
+            <p>شارك برأيك حول منتجاتنا وخدماتنا!</p>
+            <textarea placeholder="اكتب تعليقك هنا..." rows="4" style="width: 100%;"></textarea>
+            <button style="margin-top: 10px; padding: 10px;">إرسال</button>
+        </div>
 
-<section>
-    <h2>عن الموقع</h2>
-    <p>هذا الموقع عبارة عن مثال بسيط لصفحة ويب مكتوبة بلغة HTML. استمتع بزيارة الأقسام المختلفة.</p>
-</section>
+        <!-- Latest Posts Section -->
+        <div class="section latest-posts-section">
+            <h2>آخر المشاركات</h2>
+            <ul>
+                <li>إطلاق مجموعة الشتاء الجديدة</li>
+                <li>أفضل نصائح للعناية بالملابس</li>
+                <li>كيف تختار ملابسك المناسبة لهذا الموسم</li>
+            </ul>
+        </div>
 
-<section>
-    <h2>أقسام الموقع</h2>
-    <ul>
-        <li>الرئيسية</li>
-        <li>من نحن</li>
-        <li>الخدمات</li>
-        <li>اتصل بنا</li>
-    </ul>
-</section>
-
-<section>
-    <h2>صورة ترحيبية</h2>
-    <img src="assets/avataaars.svg" alt="صورة مثال" width="300" height="200">
-</section>
-
-<footer>
-    <p>حقوق النشر &copy; 2024. جميع الحقوق محفوظة.</p>
-</footer>
-
+        <!-- Important Items Section -->
+        <div class="section important-items-section">
+            <h2>أهم العناصر</h2>
+            <ul>
+                <li>جاكيتات شتوية عالية الجودة</li>
+                <li>ملابس صيفية بأسعار مخفضة</li>
+                <li>أحذية رياضية مريحة</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
-new-folder/README.md
